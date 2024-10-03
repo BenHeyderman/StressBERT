@@ -7,8 +7,8 @@ Fine tuned BERT model for stress recognition in text with a focus on lyrics. I c
 - Hyperparameters found by grid search using Optuna.
 - For bench mark GPT-4 used to annotate unseen test data.
 
-_Results:
-_StressBERT Accuracy: 0.7314685314685314
+_Results:_
+StressBERT Accuracy: 0.7314685314685314
 GPT-4 Accuracy: 0.7062937062937062
 
 - Pretty happy with this considering I used the base model and size of the dataset.
@@ -20,8 +20,8 @@ GPT-4 Accuracy: 0.7062937062937062
 - A song was considered as exhibiting stress if 30% of the chunks were annotated as stressed by StressBERT.
 - Threshold found experimentally based on performance on the hand annotated set
 
-_Results:
-_Accuracy of StressBERT prediction compared to hand annotated song lyrics: 0.8
+_Results:_
+Accuracy of StressBERT prediction compared to hand annotated song lyrics: 0.8
 
 - Looks good! So does the confusion matrix:
 
